@@ -29,6 +29,7 @@ Collision System: Enemies bounce back when colliding with the player.
 Intro and Game Over Screens: User can start or restart the game with buttons.
 
 🎮 Controls
+
 W/A/S/D – Move up/left/down/right
 
 Left Mouse Click – Fire bullet in the direction of the mouse
