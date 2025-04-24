@@ -3,6 +3,7 @@
 Galactic Recoil is a 2D top-down shooting adventure game made using C++ and SFML (Simple and Fast Multimedia Library). You play as a space survivor in an alien-infested terrain, dodging enemies, shooting down threats, and staying alive as long as you can!
 
 🛠 How It's Made
+
 Language: C++
 
 Library: SFML (Graphics, Audio, and Input handling)
