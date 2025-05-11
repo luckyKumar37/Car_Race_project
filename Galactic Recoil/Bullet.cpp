@@ -7,10 +7,10 @@ Bullet::Bullet(Vector2f startPos, Vector2f targetPos)
     this->shape.setFillColor(Color::Red);
     this->shape.setPosition(startPos);
 
-    this->maxSpeed = 10.f;
+    this->maxSpeed = 15.f;
 
     // Calculate normalized direction
-    sf::Vector2f direction = targetPos - startPos;
+    Vector2f direction = targetPos - startPos;
     float length = std::sqrt(direction.x * direction.x + direction.y * direction.y);
     if (length != 0)
         direction /= length;
@@ -28,7 +28,7 @@ void Bullet::draw(RenderWindow& window)
     window.draw(this->shape);
 }
 
-sf::FloatRect Bullet::getBounds() const
+FloatRect Bullet::getBounds() const
 {
     return shape.getGlobalBounds();
 }

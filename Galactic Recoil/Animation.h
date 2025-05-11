@@ -28,6 +28,7 @@ public:
     // Constructor
     Animation(Sprite* sprite, Texture* texture, float frameTime);
 
+
     // Add frames for each direction
     void addUpFrame(const IntRect& frame);
     void addLeftFrame(const IntRect& frame);

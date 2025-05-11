@@ -6,6 +6,8 @@ Animation::Animation(Sprite* sprite, Texture* texture, float frameTime)
     this->sprite->setTexture(*this->texture);
 }
 
+
+
 void Animation::addUpFrame(const IntRect& frame)
 {
     upFrames.push_back(frame);

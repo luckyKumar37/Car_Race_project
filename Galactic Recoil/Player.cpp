@@ -80,7 +80,7 @@ void Player::initPlayer()
     }
 
     this->player.setTexture(playerT);
-    this->player.setScale(1, 1);
+    this->player.setScale(1.5, 1.5);
     this->player.setPosition(30, 700);
 
     // Initialize animation
